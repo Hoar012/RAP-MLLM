@@ -6,7 +6,10 @@
 
 ![./images/.png](./images/framework.png)
 
-**More demostrations**
+<details><summary>More demostrations</summary>
 
 ![./images/.png](./images/demo1.png)
 ![./images/.png](./images/demo2.png)
+
+</details>
+

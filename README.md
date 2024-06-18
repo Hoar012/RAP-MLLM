@@ -1,5 +1,7 @@
 # Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant
 
+The Chinese University of Hong Kong & Nanjing University
+
 ![./images/.png](./images/intro.png)
 
 ## Personalize your Vision-Language Model via Retrieval Augmented Generation.

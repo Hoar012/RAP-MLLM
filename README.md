@@ -1,6 +1,6 @@
 # Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant
 
-### [Paper (Coming soon)](https://github.com/Hoar012/Rap-VLM) | [Model (Coming soon)](https://github.com/Hoar012/Rap-VLM),
+### [Paper (Coming soon)](https://github.com/Hoar012/Rap-MLLM) | [Model (Coming soon)](https://github.com/Hoar012/Rap-MLLM) | [Data (Coming soon)](https://github.com/Hoar012/Rap-MLLM),
 The Chinese University of Hong Kong & Nanjing University
 
 ![RAP-LLaVA](./images/intro.png)

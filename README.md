@@ -1,4 +1,4 @@
-# Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant
+# RAP-MLLM: Retrieval Augmented Personalization for Multimodal Large Language Model
 
 ### [Paper](https://arxiv.org/abs/2410.13360) | [Model (Coming soon)](https://github.com/Hoar012/Rap-MLLM) | [Data (Coming soon)](https://github.com/Hoar012/Rap-MLLM),
 The Chinese University of Hong Kong & Nanjing University

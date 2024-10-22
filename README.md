@@ -20,3 +20,17 @@ The Chinese University of Hong Kong & Nanjing University
 
 </details>
 
+
+## BibTeX
+
+```
+@misc{hao2024rememberretrievegenerateunderstanding,
+        title={Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant}, 
+        author={Haoran Hao and Jiaming Han and Changsheng Li and Yu-Feng Li and Xiangyu Yue},
+        year={2024},
+        eprint={2410.13360},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2410.13360}, 
+  }
+```

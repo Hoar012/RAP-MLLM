@@ -7,7 +7,7 @@ The Chinese University of Hong Kong & Nanjing University
 
 - **2024.10.17** Release paper.
 
-## Personalize your Multimodal Large Language Model via Retrieval Augmented Generation.
+## Personalize Your Multimodal Large Language Model via Retrieval Augmented Generation.
 
 ![RAP Framework](./images/framework.png)
 

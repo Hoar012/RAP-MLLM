@@ -1,7 +1,6 @@
-# RAP-MLLM: Retrieval Augmented Personalization for Multimodal Large Language Model
+# RAP-MLLM: Retrieval-Augmented Personalization for Multimodal Large Language Model
 
 ### [Paper](https://arxiv.org/abs/2410.13360) | [Project Page](https://hoar012.github.io/RAP-Project/) | [Model (Coming soon)](https://github.com/Hoar012/Rap-MLLM) | [Data (Coming soon)](https://github.com/Hoar012/Rap-MLLM)
-The Chinese University of Hong Kong & Nanjing University
 
 ## News
 - **2024.11.24** Release code.
@@ -9,15 +8,36 @@ The Chinese University of Hong Kong & Nanjing University
 
 ## Personalize Your Multimodal Large Language Model via Retrieval Augmented Generation.
 
-![RAP Framework](./images/framework.png)
+![RAP Framework](./images/teaser.png)
 
-<details><summary>More demostrations</summary>
+Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demostrations.
 
-![demo1](./images/demo1.png)
-![demo2](./images/demo2.png)
+## Contents
 
-</details>
+- [Install](#install)
 
+### Install
+
+1. Clone the repo into a local folder.
+
+```bash
+git clone https://github.com/Hoar012/RAP-MLLM.git
+
+cd RAP-MLLM
+```
+
+2. Install packages.
+
+```bash
+conda create -n rap python=3.10 -y
+conda activate rap
+pip install --upgrade pip  # enable PEP 660 support
+pip install -e .
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+
+pip install -r requirements.txt
+```
 
 ## BibTeX
 

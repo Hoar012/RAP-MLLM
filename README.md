@@ -4,7 +4,7 @@
 The Chinese University of Hong Kong & Nanjing University
 
 ## News
-
+- **2024.11.24** Release code.
 - **2024.10.17** Release paper.
 
 ## Personalize Your Multimodal Large Language Model via Retrieval Augmented Generation.

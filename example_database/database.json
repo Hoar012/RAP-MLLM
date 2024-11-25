@@ -2,285 +2,285 @@
     "concept_dict": {
         "<bo>": {
             "name": "bo",
-            "image": "datastore/bo.png",
+            "image": "example_database/bo.png",
             "info": "<bo> is a well-groomed, medium-sized Shiba Inu with a thick, cinnamon-colored coat, cream accents, alert eyes, and a black collar.",
             "category": "dog"
         },
         "<brown-duck>": {
             "name": "brown-duck",
-            "image": "datastore/brown-duck.png",
+            "image": "example_database/brown-duck.png",
             "info": "<brown-duck> is a brown, plush duck toy with a green head, an yellow beak and feet, and a white stripe around its neck.",
             "category": "plush toy"
         },
         "<butin>": {
             "name": "butin",
-            "image": "datastore/butin.png",
+            "image": "example_database/butin.png",
             "info": "<butin> is a husky, lying on its back with its paws in the air and its eyes closed. The husky has a white and brown coat.",
             "category": "dog"
         },
         "<cat-cup>": {
             "name": "cat-cup",
-            "image": "datastore/cat-cup.png",
+            "image": "example_database/cat-cup.png",
             "info": "<cat-cup> is a white ceramic mug with a cat face design. The mug has a handle on the side.",
             "category": "cup"
         },
         "<chua-thien-mu>": {
             "name": "chua-thien-mu",
-            "image": "datastore/chua-thien-mu.png",
+            "image": "example_database/chua-thien-mu.png",
             "info": "<chua-thien-mu> is a tall, octagonal pagoda with a pointed roof. The pagoda is made of gray and red stone and has a series of windows and decorative elements.",
             "category": "building"
         },
         "<ciin>": {
             "name": "ciin",
-            "image": "datastore/ciin.png",
+            "image": "example_database/ciin.png",
             "info": "<ciin> is a young woman with long blonde hair, wearing a white sleeveless shirt. She has bright red lipstick and light makeup.",
             "category": "person"
         },
         "<denisdang>": {
             "name": "denisdang",
-            "image": "datastore/denisdang.png",
+            "image": "example_database/denisdang.png",
             "info": "<denisdang> is a man with white hair and a pink and grey sweater.",
             "category": "person"
         },
         "<dragon>": {
             "name": "dragon",
-            "image": "datastore/dragon.png",
+            "image": "example_database/dragon.png",
             "info": "<dragon> is a pink and yellow plush toy in the shape of a dragon. It has a blue wing and yellow spots on its body.",
             "category": "plush toy"
         },
         "<duck-banana>": {
             "name": "duck-banana",
-            "image": "datastore/duck-banana.png",
+            "image": "example_database/duck-banana.png",
             "info": "<duck-banana> is a large, white, plush toy shaped like a duck with an orange beak, feet, and a yellow chest.",
             "category": "plush toy"
         },
         "<dug>": {
             "name": "dug",
-            "image": "datastore/dug.png",
+            "image": "example_database/dug.png",
             "info": "<dug> is a golden retriever from the movie Up. He has a brown coat and a big, goofy smile, wearing a collar with some round objects.",
             "category": "cartoon character"
         },
         "<elephant>": {
             "name": "elephant",
-            "image": "datastore/elephant.png",
+            "image": "example_database/elephant.png",
             "info": "<elephant> is a grey plush elephant toy with large ears and feet. The ears are ribbed and have a lighter gray trim. The feet are ribbed with a cream colored trim.",
             "category": "plush toy"
         },
         "<fire>": {
             "name": "fire",
-            "image": "datastore/fire.png",
+            "image": "example_database/fire.png",
             "info": "<fire> is an animated female character made of fire, with a fiery red hair, black dress with paisley pattern and angry expression.",
             "category": "cartoon character"
         },
         "<henry>": {
             "name": "henry",
-            "image": "datastore/henry.png",
+            "image": "example_database/henry.png",
             "info": "<henry> is a grey and white dosmetic cat with green eyes and a long black tail.",
             "category": "cat"
         },
         "<khanhvy>": {
             "name": "khanhvy",
-            "image": "datastore/khanhvy.png",
+            "image": "example_database/khanhvy.png",
             "info": "<khanhvy> is a young woman with long black hair tied in a ponytail. She is smiling and wearing glasses.",
             "category": "person"
         },
         "<lamb>": {
             "name": "lamb",
-            "image": "datastore/lamb.png",
+            "image": "example_database/lamb.png",
             "info": "<lamb> is a white plush toy shaped like a lamb with red feet.",
             "category": "plush toy"
         },
         "<mam>": {
             "name": "mam",
-            "image": "datastore/mam.png",
+            "image": "example_database/mam.png",
             "info": "<mam> is a fluffy, gray British Shorthair cat with white accents and yellow eyes, sitting on a wood floor. It has a white patch on its chest and a long tail.",
             "category": "cat"
         },
         "<marie-cat>": {
             "name": "marie-cat",
-            "image": "datastore/marie-cat.png",
+            "image": "example_database/marie-cat.png",
             "info": "<marie-cat> is a white kitten with blue eyes and a pink collar and bow.",
             "category": "cartoon character"
         },
         "<mydieu>": {
             "name": "mydieu",
-            "image": "datastore/mydieu.png",
+            "image": "example_database/mydieu.png",
             "info": "<mydieu> is a dosmetic ginger cat with big, yellow eyes and a pink collar.",
             "category": "cat"
         },
         "<neurips-cup>": {
             "name": "neurips-cup",
-            "image": "datastore/neurips-cup.png",
+            "image": "example_database/neurips-cup.png",
             "info": "<neurips-cup> is a blue mug with a white rim.",
             "category": "cup"
         },
         "<nha-tho-hanoi>": {
             "name": "nha-tho-hanoi",
-            "image": "datastore/nha-tho-hanoi.png",
+            "image": "example_database/nha-tho-hanoi.png",
             "info": "<nha-tho-hanoi> is a large, gray stone church with two tall towers and a cross on top. The church is decorated with red and gold trim.",
             "category": "building"
         },
         "<nha-tho-hcm>": {
             "name": "nha-tho-hcm",
-            "image": "datastore/nha-tho-hcm.png",
+            "image": "example_database/nha-tho-hcm.png",
             "info": "<nha-tho-hcm> is a church with two tall spires and a statue of a woman in front of it. The church is made of brown brick and has a gray roof. The statue is made of gray stone.",
             "category": "building"
         },
         "<oong>": {
             "name": "oong",
-            "image": "datastore/oong.png",
+            "image": "example_database/oong.png",
             "info": "<oong> is a smiling Asian man with short black hair, wearing glasses and a grey sweater.",
             "category": "person"
         },
         "<phuc-map>": {
             "name": "phuc-map",
-            "image": "datastore/phuc-map.png",
+            "image": "example_database/phuc-map.png",
             "info": "<phuc-map> is a bald man with a red beard.",
             "category": "person"
         },
         "<pig-cup>": {
             "name": "pig-cup",
-            "image": "datastore/pig-cup.png",
+            "image": "example_database/pig-cup.png",
             "info": "<pig-cup> is a pink ceramic mug shaped like a pig with peach-shaped ears and a peach on top as a lid. It has a handle on one side.",
             "category": "cup"
         },
         "<pusheen-cup>": {
             "name": "pusheen-cup",
-            "image": "datastore/pusheen-cup.png",
+            "image": "example_database/pusheen-cup.png",
             "info": "<pusheen-cup> is a cute grey mug shaped as a cat with pointed ears, featuring two black stripes on its head.",
             "category": "cup"
         },
         "<shiba-black>": {
             "name": "shiba-black",
-            "image": "datastore/shiba-black.png",
+            "image": "example_database/shiba-black.png",
             "info": "<shiba-black> is a black Shiba Inu Dog shaped plush toy. It is round and has a tan belly.",
             "category": "plush toy"
         },
         "<shiba-gray>": {
             "name": "shiba-gray",
-            "image": "datastore/shiba-gray.png",
+            "image": "example_database/shiba-gray.png",
             "info": "<shiba-gray> is a gray Shiba Inu Dog shaped plush toy. It is a long, cylindrical shape with a white face and chest. It is round and has large, black eyes and a small, black nose.",
             "category": "plush toy"
         },
         "<shiba-sleep>": {
             "name": "shiba-sleep",
-            "image": "datastore/shiba-sleep.png",
+            "image": "example_database/shiba-sleep.png",
             "info": "<shiba-sleep> is a long, plush Shiba Inu Dog toy. It is light brown with white accents, has a fluffy tail curled up, and has white paw pads.",
             "category": "plush toy"
         },
         "<shiba-yellow>": {
             "name": "shiba-yellow",
-            "image": "datastore/shiba-yellow.png",
+            "image": "example_database/shiba-yellow.png",
             "info": "<shiba-yellow> is a brown and white plush toy dog with black eyes. The toy looks like a Shiba Inu.",
             "category": "plush toy"
         },
         "<thao>": {
             "name": "thao",
-            "image": "datastore/thao.png",
+            "image": "example_database/thao.png",
             "info": "<thao> is a young woman with long black hair, wearing glasses and a white shirt.",
             "category": "person"
         },
         "<thap-but>": {
             "name": "thap-but",
-            "image": "datastore/thap-but.png",
+            "image": "example_database/thap-but.png",
             "info": "<thap-but> is a tall, gray stone pagoda with a pointed top standing on a pile of rocks. It has five levels, each with a square window.",
             "category": "building"
         },
         "<thap-cham>": {
             "name": "thap-cham",
-            "image": "datastore/thap-cham.png",
+            "image": "example_database/thap-cham.png",
             "info": "<thap-cham> is a red brick tower, a Cham temple with a pointed archway and small doorways. You can also walk inside to visit.",
             "category": "building"
         },
         "<thuytien>": {
             "name": "thuytien",
-            "image": "datastore/thuytien.png",
+            "image": "example_database/thuytien.png",
             "info": "<thuytien> is a woman with long black hair and a black lace top.",
             "category": "person"
         },
         "<tokyo-keyboard>": {
             "name": "tokyo-keyboard",
-            "image": "datastore/tokyo-keyboard.png",
+            "image": "example_database/tokyo-keyboard.png",
             "info": "<tokyo-keyboard> is a small, pink keyboard with white keycaps. The keyboard has a cherry blossom design on it and some of the keys have custom keycaps with different designs.",
             "category": "keyboard"
         },
         "<toodles-galore>": {
             "name": "toodles-galore",
-            "image": "datastore/toodles-galore.png",
+            "image": "example_database/toodles-galore.png",
             "info": "<toodles-galore> is a white cat, and she is wearing a purple bow around her neck.",
             "category": "cartoon character"
         },
         "<viruss>": {
             "name": "viruss",
-            "image": "datastore/viruss.png",
+            "image": "example_database/viruss.png",
             "info": "<viruss> is a young man with dark hair. He is wearing black-framed glasses and holding a phone.",
             "category": "person"
         },
         "<water>": {
             "name": "water",
-            "image": "datastore/water.png",
+            "image": "example_database/water.png",
             "info": "<water> is a blue, humanoid, water-like figure with a purple and white striped shirt. He is transparent and appears to be in a water-based world.",
             "category": "cartoon character"
         },
         "<willinvietnam>": {
             "name": "willinvietnam",
-            "image": "datastore/willinvietnam.png",
+            "image": "example_database/willinvietnam.png",
             "info": "<willinvietnam> is a young man with black hair.",
             "category": "person"
         },
         "<yellow-duck>": {
             "name": "yellow-duck",
-            "image": "datastore/yellow-duck.png",
+            "image": "example_database/yellow-duck.png",
             "info": "<yellow-duck> is a yellow, plush duck with large, black eyes and a wide, flat beak.",
             "category": "plush toy"
         },
         "<yuheng>": {
             "name": "yuheng",
-            "image": "datastore/yuheng.png",
+            "image": "example_database/yuheng.png",
             "info": "<yuheng> is a young Asian man wearing glasses.",
             "category": "person"
         }
     },
     "path_to_concept": {
-        "datastore/bo.png": "<bo>",
-        "datastore/brown-duck.png": "<brown-duck>",
-        "datastore/butin.png": "<butin>",
-        "datastore/cat-cup.png": "<cat-cup>",
-        "datastore/chua-thien-mu.png": "<chua-thien-mu>",
-        "datastore/ciin.png": "<ciin>",
-        "datastore/denisdang.png": "<denisdang>",
-        "datastore/dragon.png": "<dragon>",
-        "datastore/duck-banana.png": "<duck-banana>",
-        "datastore/dug.png": "<dug>",
-        "datastore/elephant.png": "<elephant>",
-        "datastore/fire.png": "<fire>",
-        "datastore/henry.png": "<henry>",
-        "datastore/khanhvy.png": "<khanhvy>",
-        "datastore/lamb.png": "<lamb>",
-        "datastore/mam.png": "<mam>",
-        "datastore/marie-cat.png": "<marie-cat>",
-        "datastore/mydieu.png": "<mydieu>",
-        "datastore/neurips-cup.png": "<neurips-cup>",
-        "datastore/nha-tho-hanoi.png": "<nha-tho-hanoi>",
-        "datastore/nha-tho-hcm.png": "<nha-tho-hcm>",
-        "datastore/oong.png": "<oong>",
-        "datastore/phuc-map.png": "<phuc-map>",
-        "datastore/pig-cup.png": "<pig-cup>",
-        "datastore/pusheen-cup.png": "<pusheen-cup>",
-        "datastore/shiba-black.png": "<shiba-black>",
-        "datastore/shiba-gray.png": "<shiba-gray>",
-        "datastore/shiba-sleep.png": "<shiba-sleep>",
-        "datastore/shiba-yellow.png": "<shiba-yellow>",
-        "datastore/thao.png": "<thao>",
-        "datastore/thap-but.png": "<thap-but>",
-        "datastore/thap-cham.png": "<thap-cham>",
-        "datastore/thuytien.png": "<thuytien>",
-        "datastore/tokyo-keyboard.png": "<tokyo-keyboard>",
-        "datastore/toodles-galore.png": "<toodles-galore>",
-        "datastore/viruss.png": "<viruss>",
-        "datastore/water.png": "<water>",
-        "datastore/willinvietnam.png": "<willinvietnam>",
-        "datastore/yellow-duck.png": "<yellow-duck>",
-        "datastore/yuheng.png": "<yuheng>"
+        "example_database/bo.png": "<bo>",
+        "example_database/brown-duck.png": "<brown-duck>",
+        "example_database/butin.png": "<butin>",
+        "example_database/cat-cup.png": "<cat-cup>",
+        "example_database/chua-thien-mu.png": "<chua-thien-mu>",
+        "example_database/ciin.png": "<ciin>",
+        "example_database/denisdang.png": "<denisdang>",
+        "example_database/dragon.png": "<dragon>",
+        "example_database/duck-banana.png": "<duck-banana>",
+        "example_database/dug.png": "<dug>",
+        "example_database/elephant.png": "<elephant>",
+        "example_database/fire.png": "<fire>",
+        "example_database/henry.png": "<henry>",
+        "example_database/khanhvy.png": "<khanhvy>",
+        "example_database/lamb.png": "<lamb>",
+        "example_database/mam.png": "<mam>",
+        "example_database/marie-cat.png": "<marie-cat>",
+        "example_database/mydieu.png": "<mydieu>",
+        "example_database/neurips-cup.png": "<neurips-cup>",
+        "example_database/nha-tho-hanoi.png": "<nha-tho-hanoi>",
+        "example_database/nha-tho-hcm.png": "<nha-tho-hcm>",
+        "example_database/oong.png": "<oong>",
+        "example_database/phuc-map.png": "<phuc-map>",
+        "example_database/pig-cup.png": "<pig-cup>",
+        "example_database/pusheen-cup.png": "<pusheen-cup>",
+        "example_database/shiba-black.png": "<shiba-black>",
+        "example_database/shiba-gray.png": "<shiba-gray>",
+        "example_database/shiba-sleep.png": "<shiba-sleep>",
+        "example_database/shiba-yellow.png": "<shiba-yellow>",
+        "example_database/thao.png": "<thao>",
+        "example_database/thap-but.png": "<thap-but>",
+        "example_database/thap-cham.png": "<thap-cham>",
+        "example_database/thuytien.png": "<thuytien>",
+        "example_database/tokyo-keyboard.png": "<tokyo-keyboard>",
+        "example_database/toodles-galore.png": "<toodles-galore>",
+        "example_database/viruss.png": "<viruss>",
+        "example_database/water.png": "<water>",
+        "example_database/willinvietnam.png": "<willinvietnam>",
+        "example_database/yellow-duck.png": "<yellow-duck>",
+        "example_database/yuheng.png": "<yuheng>"
     }
 }

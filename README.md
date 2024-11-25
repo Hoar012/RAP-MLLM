@@ -114,3 +114,6 @@ python eval/VQA.py --eval-file /path/to/yollava-visual-qa.json --model-path Hoar
         url={https://arxiv.org/abs/2410.13360}, 
   }
 ```
+
+## Acknowledgement
+[LLaVA](https://github.com/haotian-liu/LLaVA), [MyVLM](https://github.com/snap-research/MyVLM), [YoLLaVA](https://github.com/WisconsinAIVision/YoLLaVA)

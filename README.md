@@ -73,7 +73,7 @@ We provide an example of the database in `example_database`.
 
 **CLI Demo:**
 ```bash
-python cli.py --model-path Hoar012/RAP-LLaVA-13b --image-file /path/to/test_image --retrieval --database ./example_database
+python cli.py --model-path Hoar012/RAP-LLaVA-13b --image-file /path/to/test_image --retrieval --database ./example_database --topK 1
 ```
 
 ### Evaluation

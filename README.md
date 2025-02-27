@@ -1,4 +1,4 @@
-## RAP-MLLM: Retrieval-Augmented Personalization for Multimodal Large Language Model
+## RAP-MLLM: Retrieval-Augmented Personalization for Multimodal Large Language Models
 
 ### [Paper](https://arxiv.org/abs/2410.13360) | [Project Page](https://hoar012.github.io/RAP-Project/) | [Model](https://huggingface.co/Hoar012/RAP-LLaVA-13b) | [Data (Coming soon)](https://github.com/Hoar012/Rap-MLLM)
 

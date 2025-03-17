@@ -1,7 +1,6 @@
 ## Data
 
 ### Download Links
-| **Category**       | |
 |--------------------|------------|
 | **Full Dataset**   | |
 | [rap_train_260k.json](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_260k.json) | [rap_train_210k.json](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_210k.json) |

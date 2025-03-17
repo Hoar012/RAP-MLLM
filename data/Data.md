@@ -48,7 +48,7 @@ Each sample in the dataset contains the following keys: `id`, `image`, `conversa
     ],
     "extra": {
         "refcoco/crop/94268_0.jpg": {
-            "name": "Dior",
+            "name": "D",
             "info": "A man in a bright orange shirt is playing frisbee.",
             "category": "person"
         }

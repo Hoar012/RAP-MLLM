@@ -89,11 +89,9 @@ Please check [Data](https://github.com/Hoar012/Rap-MLLM/blob/main/data/Data.md) 
 ### Training
 We provide the training scripts with DeepSpeed below. Try training on your own dataset!
 
-| Model | Script |
-| --- | ---: |
-| RAP-LLaVA | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_llava.sh) |
-| RAP-Phi3-V | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_phi3.sh) |
-| LLaVA-LoRA | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_lora_llava.sh) |
+| Model | RAP-LLaVA | RAP-Phi3-V | LLaVA-LoRA |
+| --- | --- | --- | --- |
+| Script | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_llava.sh) | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_phi3.sh) | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_lora_llava.sh) |
 
 ### Evaluation
 

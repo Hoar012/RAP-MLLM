@@ -1,8 +1,9 @@
-## RAP-MLLM: Retrieval-Augmented Personalization for Multimodal Large Language Models
+## RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models
 
-### [Paper](https://arxiv.org/abs/2410.13360) | [Project Page](https://hoar012.github.io/RAP-Project/) | [Model](https://huggingface.co/Hoar012/RAP-LLaVA-13b) | [Data (Coming soon)](https://github.com/Hoar012/Rap-MLLM)
+### [Paper](https://arxiv.org/abs/2410.13360) | [Project Page](https://hoar012.github.io/RAP-Project/) | [Model](https://huggingface.co/Hoar012/RAP-LLaVA-13b) | [Data](https://github.com/Hoar012/Rap-MLLM/blob/main/data/Data.md)
 
 ## News
+- **2025.3.16** The RAP dataset is now available. Access it [here](https://github.com/Hoar012/Rap-MLLM/blob/main/data/Data.md).🔥🔥
 - **2025.2.27** RAP is accepted by CVPR 2025!🎉🎉
 - **2024.11.24** Release code and model weights.
 
@@ -20,6 +21,8 @@ Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demost
 - [Install](#install)
 - [Models](#models)
 - [Demo](#demo)
+- [Data](#data)
+- [Training](#Training)
 - [Evaluation](#evaluation)
 
 Note: This repository is still under construction.
@@ -79,6 +82,18 @@ We provide an example of the database in `example_database`.
 ```bash
 python cli.py --model-path Hoar012/RAP-LLaVA-13b --image-file /path/to/test_image --retrieval --database ./example_database --topK 1
 ```
+
+### Data
+Please check [Data](https://github.com/Hoar012/Rap-MLLM/blob/main/data/Data.md) for more detail.
+
+### Training
+We provide the training scripts with DeepSpeed below. Try training on your own dataset!
+
+| Model | Script |
+| --- | ---: |
+| RAP-LLaVA | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_llava.sh) |
+| RAP-Phi3-V | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_phi3.sh) |
+| LLaVA-LoRA | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_lora_llava.sh) |
 
 ### Evaluation
 

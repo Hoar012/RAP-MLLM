@@ -31,6 +31,7 @@ deepspeed llava/train/train.py \
     --logging_steps 1 \
     --tf32 True \
     --model_max_length 4096 \
+    --max_num_concept 3 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \

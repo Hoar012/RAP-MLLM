@@ -76,6 +76,14 @@ class DataArguments:
     is_multimodal: bool = False
     image_folder: Optional[str] = field(default=None)
     image_aspect_ratio: str = 'square'
+    
+    max_num_concept: int = field(
+        default=2,
+        metadata={
+            "help":
+            "Maximum number of personalized concepts retrieved."
+        },
+    )
 
 
 @dataclass
@@ -753,34 +761,35 @@ def preprocess(
 
     return dict(input_ids=input_ids, labels=targets)
 
-def prepare_dataset(data_list):
+def prepare_dataset(data_list, max_num_concept):
     print("Preparing dataset...")
     concat_data_list = []
-    for i, sample in enumerate(tqdm(data_list)):
-        if "image" in sample:
-            images = [sample["image"]]
-            img_token = "<image>\n"
-        else:
-            images = []
-            img_token = ""
+    
+    for sample in tqdm(data_list):
+        images = [sample.get("image")] if "image" in sample else []
+        img_token = "<image>\n" if images else ""
     
         sample["conversations"][0]["value"] = sample["conversations"][0]["value"].replace("<image>\n", "").replace("<image>", "")
-        extra_info = ""
-        if "extra" in sample and len(sample["extra"]) > 0:
-            for path, crop in sample["extra"].items():
-                name = crop["name"]
-                info = crop["info"]
-                extra_info += f"{len(images)}.<image>\n Name: <{name}>, Info: {info}\n"
-                images.append(path)
 
-            sample["conversations"][0]["value"] = f"{img_token}[{extra_info}]" + sample["conversations"][0]["value"]
-        else:
-            sample["conversations"][0]["value"] = f"{img_token}" + sample["conversations"][0]["value"]
+        extra = sample.get("extra", {})
+        if extra and len(extra) > max_num_concept:
+            continue
         
-        if len(images) > 0:
+        extra_info_list = []
+        for path, crop in extra.items():
+            name = crop["name"]
+            info = crop["info"]
+            extra_info_list.append(f"{len(images)}.<image>\n Name: <{name}>, Info: {info}\n")
+            images.append(path)
+        
+        extra_info = "".join(extra_info_list)
+        sample["conversations"][0]["value"] = f"{img_token}[{extra_info}]" + sample["conversations"][0]["value"] if extra_info else f"{img_token}" + sample["conversations"][0]["value"]
+        
+        if images:
             sample["image"] = images
         
         concat_data_list.append(sample)
+    print(f"Number of training samples: {len(concat_data_list)}")
     return concat_data_list
 
 class LazySupervisedDataset(Dataset):
@@ -791,7 +800,7 @@ class LazySupervisedDataset(Dataset):
                  data_args: DataArguments):
         super(LazySupervisedDataset, self).__init__()
         list_data_dict = json.load(open(data_path, "r"))
-        list_data_dict = prepare_dataset(list_data_dict)  # TODO prepare dataset
+        list_data_dict = prepare_dataset(list_data_dict, max_num_concept=data_args.max_num_concept)  # prepare RAP dataset
         
         rank0_print("Formatting inputs...Skip in lazy mode")
         self.tokenizer = tokenizer

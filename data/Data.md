@@ -28,7 +28,7 @@
 </div>
 
 
-The [`rap_train_260k.json`](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_260k.json) is the full dataset used for training RAP-Phi3-V; The [`rap_train_210k.json`](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_210k.json) is a subset used for training RAP-LLaVA.
+[`rap_train_260k.json`](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_260k.json) is the full dataset used for training RAP-Phi3-V; [`rap_train_210k.json`](https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_210k.json) is a subset used for training RAP-LLaVA.
 
 ### Data Format
 Each sample in the dataset contains the following keys: `id`, `image`, `conversations`, `extra` and `type`, where extra stores additional concepts related to the image and their information. For example, a sample may look like this:

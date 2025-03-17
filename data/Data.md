@@ -10,10 +10,6 @@
                 <td><a href="https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_260k.json">rap_train_260k.json</a></td>
                 <td><a href="https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/rap_train_210k.json">rap_train_210k.json</a></td>
             </tr>
-        </table>
-    </div>
-    <div class="column">
-        <table>
             <tr><th colspan="2" class="header">Split</th></tr>
             <tr>
                 <td><a href="https://huggingface.co/datasets/Hoar012/RAP-260K/blob/main/split/rap_grounding_100k.json">rap_grounding_100k.json</a></td>

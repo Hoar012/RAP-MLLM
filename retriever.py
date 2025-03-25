@@ -114,6 +114,7 @@ class ClipRetriever():
         
         extra_info = ""
         for i, ret_path in enumerate(rag_images):
+            ret_path = ret_path.lstrip('./')
             tag = database["path_to_concept"][ret_path]
             name = database["concept_dict"][tag]["name"]
             info = database["concept_dict"][tag]["info"]

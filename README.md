@@ -114,7 +114,12 @@ The `eval-file` records the image paths to be evaluated and their corresponding 
 
 #### Evaluation on Question Answering
 ```bash
-python eval/VQA.py --eval-file /path/to/yollava-visual-qa.json --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 1
+python eval/VQA.py --eval-file eval/yollava-visual-qa.json --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 1
+```
+
+#### Evaluation on Visual Recognition
+```bash
+python eval/recognition.py --eval-file eval/recognition_test.json --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 1
 ```
 
 

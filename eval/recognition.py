@@ -130,7 +130,8 @@ def main(args):
             print("\n", {"prompt": prompt, "outputs": outputs}, "\n")
             
     save_time = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime())
-    
+    if not os.path.exists("results"):
+        os.makedirs("results")
     with open(f"results/recognition-{save_time}.json", "w") as f:
         json.dump(results, f, indent = 4)
 

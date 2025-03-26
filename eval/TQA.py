@@ -11,7 +11,8 @@ import requests
 from PIL import Image
 from io import BytesIO
 from transformers import TextStreamer
-import json, os
+import json, os, sys
+sys.path.append(os.getcwd())
 from tqdm import tqdm
 import time
 

@@ -9,9 +9,9 @@
 
 ## Personalize Your Multimodal Large Language Model via Retrieval Augmented Generation.
 
-| ![RAP-LLaVA](./images/teaser.png) |
+| ![RAP-MLLM](./images/teaser.png) |
 |:--:|
-| Introduce some user-specific concepts to our RAP-LLaVA, it can remember them and achieve excellent performance in a variety of personalized multimodal generation tasks. |
+| Introduce some user-specific concepts to our RAP-MLLM, it can remember them and achieve excellent performance in a variety of personalized multimodal generation tasks. |
 
 
 Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demostrations.

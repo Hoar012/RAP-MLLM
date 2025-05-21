@@ -25,7 +25,7 @@ Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demost
 - [Training](#Training)
 - [Evaluation](#evaluation)
 
-Note: This repository is still under construction.
+<!-- Note: This repository is still under construction. -->
 
 
 ### Install
@@ -126,15 +126,12 @@ python eval/recognition.py --eval-file eval/recognition_test.json --model-path H
 ## BibTeX
 
 ```
-@misc{hao2024rememberretrievegenerateunderstanding,
-        title={Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant}, 
-        author={Haoran Hao and Jiaming Han and Changsheng Li and Yu-Feng Li and Xiangyu Yue},
-        year={2024},
-        eprint={2410.13360},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2410.13360}, 
-  }
+@article{hao2024remember,
+  title={Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant},
+  author={Hao, Haoran and Han, Jiaming and Li, Changsheng and Li, Yu-Feng and Yue, Xiangyu},
+  journal={arXiv preprint arXiv:2410.13360},
+  year={2024}
+}
 ```
 
 ## Acknowledgement

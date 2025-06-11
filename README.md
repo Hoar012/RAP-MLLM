@@ -16,7 +16,7 @@
 
 Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demostrations.
 
-## Contents
+## 📋 Contents
 
 - [Install](#install)
 - [Models](#models)

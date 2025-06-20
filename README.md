@@ -126,11 +126,13 @@ python eval/recognition.py --eval-file eval/recognition_test.json --model-path H
 ## BibTeX
 
 ```
-@article{hao2024remember,
-  title={Remember, Retrieve and Generate: Understanding Infinite Visual Concepts as Your Personalized Assistant},
-  author={Hao, Haoran and Han, Jiaming and Li, Changsheng and Li, Yu-Feng and Yue, Xiangyu},
-  journal={arXiv preprint arXiv:2410.13360},
-  year={2024}
+@InProceedings{Hao_2025_CVPR,
+    author    = {Hao, Haoran and Han, Jiaming and Li, Changsheng and Li, Yu-Feng and Yue, Xiangyu},
+    title     = {RAP: Retrieval-Augmented Personalization for Multimodal Large Language Models},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {14538-14548}
 }
 ```
 

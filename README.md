@@ -98,6 +98,8 @@ We provide the training scripts with DeepSpeed below. Try training on your own d
 #### Prepare Data
 Please download the test data used in the paper from the repositories of [MyVLM](https://github.com/snap-research/MyVLM) and [Yo'LLaVA](https://github.com/WisconsinAIVision/YoLLaVA).
 
+We also provide the images for multi-concept evaluation in this [Google Drive link](https://drive.google.com/file/d/1zA7RCVWBzeFdYTtUZkp5Zu7IPQ7XtQiR/view?usp=drive_link).
+
 #### Evaluation on Image Captioning
 ```bash
 python eval/caption.py  --eval-file /path/to/eval_file --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 2

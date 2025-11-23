@@ -100,6 +100,8 @@ Please download the test data used in the paper from the repositories of [MyVLM]
 
 We also provide the images for multi-concept evaluation in this [Google Drive link](https://drive.google.com/file/d/1zA7RCVWBzeFdYTtUZkp5Zu7IPQ7XtQiR/view?usp=drive_link).
 
+In addition, we provide the full database used for question answering at this [Google Drive link](https://drive.google.com/drive/folders/1VI6cxj10Owp6uTCqNAYPJj86zCnMMR7X).
+
 #### Evaluation on Image Captioning
 ```bash
 python eval/caption.py  --eval-file /path/to/eval_file --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 2
@@ -118,6 +120,12 @@ The `eval-file` records the image paths to be evaluated and their corresponding 
 ```bash
 python eval/VQA.py --eval-file eval/yollava-visual-qa.json --model-path Hoar012/RAP-LLaVA-13b --retrieval --database /path/to/database --topK 1
 ```
+
+Replace `/path/to/output_file` with the path to your output file, then run the following command to obtain the accuracy:
+```bash
+python eval/eval_qa.py --output_path /path/to/output_file
+```
+
 
 #### Evaluation on Visual Recognition
 ```bash

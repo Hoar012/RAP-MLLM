@@ -18,17 +18,17 @@ Visit our [Project Page](https://hoar012.github.io/RAP-Project/) for more demost
 
 ## 📋 Contents
 
-- [Install](#install)
-- [Models](#models)
-- [Demo](#demo)
-- [Data](#data)
-- [Training](#Training)
-- [Evaluation](#evaluation)
+- [🛠️ Install](#install)
+- [🤗 Models](#models)
+- [🖥️ Demo](#demo)
+- [💾 Data](#data)
+- [🚀 Training](#Training)
+- [📊 Evaluation](#evaluation)
 
 <!-- Note: This repository is still under construction. -->
 
 
-### Install
+### 🛠️ Install
 
 1. Clone the repo into a local folder.
 
@@ -51,12 +51,12 @@ pip install flash-attn --no-build-isolation
 pip install -r requirements.txt
 ```
 
-### Models
+### 🤗 Models
 Pretrained model weights are available on Hugging Face.
 
 RAP-LLaVA: [RAP-LLaVA-13b](https://huggingface.co/Hoar012/RAP-LLaVA-13b); RAP-Phi3-V: [RAP-Phi3-mini](https://huggingface.co/Hoar012/RAP-Phi3-mini)
 
-### Demo
+### 🖥️ Demo
 
 **Build Your Personal Database:**
 
@@ -83,17 +83,17 @@ We provide an example of the database in `example_database`.
 python cli.py --model-path Hoar012/RAP-LLaVA-13b --image-file /path/to/test_image --retrieval --database example_database --topK 1
 ```
 
-### Data
+### 💾 Data
 Please check [Data](https://github.com/Hoar012/Rap-MLLM/blob/main/data/Data.md) for more detail.
 
-### Training
+### 🚀 Training
 We provide the training scripts with DeepSpeed below. Try training on your own dataset!
 
 | Model | RAP-LLaVA | RAP-Phi3-V | LLaVA-LoRA |
 | --- | --- | --- | --- |
 | Script | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_llava.sh) | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_rap_phi3.sh) | [script](https://github.com/Hoar012/RAP-MLLM/blob/main/scripts/train_lora_llava.sh) |
 
-### Evaluation
+### 📊 Evaluation
 
 #### Prepare Data
 Please download the test data used in the paper from the repositories of [MyVLM](https://github.com/snap-research/MyVLM) and [Yo'LLaVA](https://github.com/WisconsinAIVision/YoLLaVA).
